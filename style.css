@@ -1,0 +1,64 @@
+body {
+  background:#000;
+  color:#FFD700;
+  font-family:Arial;
+  margin:0;
+}
+
+.container {
+  padding:20px;
+  max-width:600px;
+  margin:auto;
+}
+
+h1 {
+  text-align:center;
+  text-shadow:0 0 20px gold;
+}
+
+.slogan {
+  text-align:center;
+  font-style:italic;
+}
+
+.creator {
+  text-align:center;
+  color:#aaa;
+}
+
+.products {
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+
+.product-card {
+  background:rgba(255,215,0,0.1);
+  padding:15px;
+  border-radius:15px;
+  transition:0.3s;
+}
+
+.product-card:hover {
+  transform:scale(1.05);
+}
+
+button, .btn {
+  background:#FFD700;
+  color:#000;
+  padding:12px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  margin-top:10px;
+  display:block;
+  text-align:center;
+}
+
+#dashboard, #reviews {
+  background:rgba(255,215,0,0.1);
+  padding:10px;
+  border-radius:10px;
+  max-height:200px;
+  overflow:auto;
+}
